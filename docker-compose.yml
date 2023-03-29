@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  youtube-rest-api:
+    build:
+      context: .
+    container_name: youtube-rest-api
+    ports:
+      - 3000:3000
+    tty: true
+    volumes:
+      - .:/workdir
