@@ -39,7 +39,7 @@ export const isOwner = async (
       return res.sendStatus(400);
     }
     if (currentUserId.toString() !== id) {
-      return res.sendStatus(400);
+      return res.sendStatus(403);
     }
     return next();
   } catch (error) {
