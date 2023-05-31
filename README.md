@@ -1,5 +1,5 @@
 # User Management API with Express and MongoDB
-Respect: [The Complete Guide To Building A REST API With Node, Express, TypeScript & MongoDB + Authentication](https://www.youtube.com/watch?v=b8ZUb_Okxro)
+Source: [The Complete Guide To Building A REST API With Node, Express, TypeScript & MongoDB + Authentication](https://www.youtube.com/watch?v=b8ZUb_Okxro)
 
 This repository provides an API for managing user data, including name, email, and password, using Express and MongoDB. The API allows for user registration, viewing all users, deleting users (only available to logged-in users), and updating user information (only available to logged-in users).
 
